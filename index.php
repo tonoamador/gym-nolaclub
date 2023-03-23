@@ -36,31 +36,9 @@
         <div class="loader"></div>
     </div>
 
-    <!-- Header Section Begin -->
-    <header class="header-section">
-        <div class="container">
-            <div class="logo">
-                <a href="./index.html">
-                    <img src="img/photos/nola2.png" alt="">
-                </a>
-            </div>
-            <div class="nav-menu">
-                <nav class="mainmenu mobile-menu">
-                    <ul>
-                        <li class="active"><a href="./index.html">Home</a></li>
-                        <li><a href="./about-us.html">About</a></li>
-                        <li><a href="./classes.html">Classes</a></li>
-                        <li><a href="./blog.html">Blog</a></li>
-                        <li><a href="./gallery.html">Gallery</a></li>
-                        <li><a href="./contact.html">Contacts</a></li>
-                    </ul>
-                </nav>
-                <a href="#" class="primary-btn signup-btn">Sign Up Today</a>
-            </div>
-            <div id="mobile-menu-wrap"></div>
-        </div>
-    </header>
-    <!-- Header End -->
+    <?php
+        include("config/header.php");
+    ?>
 
     <!-- Hero Section Begin -->
     <section class="hero-section set-bg set-bg-2" data-setbg="img/photos/IMG_2506.jpg">
@@ -68,10 +46,10 @@
             <div class="row">
                 <div class="col-lg-8">
                     <div class="hero-text">
-                        <span>NOLA CLUB TEST</span>
                         <h1>NOLA CLUB</h1>
-                        <p>Welcome to Nola Club!<br /> this template was provided by Colorlib <i class="fa fa-heart" aria-hidden="true"></i>    </p>
-                        <a href="#" class="primary-btn">Read More</a>
+                        <span>Self love & Wellness Club</span>
+                        <p>Bienvenido a Nola Club!<br /> Registrate o inicia sesión para apuntarte a nuestras clases <i class="fa fa-heart" aria-hidden="true"></i>    </p>
+                        <a href="#" class="primary-btn">Registrate</a>
                     </div>
                 </div>
             </div>

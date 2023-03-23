@@ -312,8 +312,8 @@ table{
 	padding-top: 335px;
 }
 .hero-text span {
-	font-size: 14px;
-	color: #f15d44;
+	font-size: 16px;
+	color: #D4D4D4;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	font-weight: 600;
@@ -1799,11 +1799,13 @@ table{
 		z-index: 55;
 	}
 	.slicknav_btn {
+		background-color: #D4D4D4;
 		margin: 22px 0;
 		border-radius: 0;
 	}
 	.slicknav_nav {
-		background: #222;
+		   background: #D4D4D4;
+		/* background: #222; */
 	}
 	.slicknav_nav ul {
 		margin: 10px;
@@ -1815,6 +1817,7 @@ table{
 	}
 	.slicknav_nav a {
 		padding: 10px;
+		color:#000
 	}
 	.nav-menu .mainmenu {
 		display: none;
